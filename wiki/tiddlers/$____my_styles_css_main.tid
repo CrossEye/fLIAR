@@ -1,0 +1,65 @@
+created: 20250510203425235
+creator: Scott Sauyet
+modified: 20250511151904452
+modifier: Scott Sauyet
+tags: $:/tags/Stylesheet
+title: $:/_/my/styles/css/main
+type: text/vnd.tiddlywiki
+
+.issue {
+  display: flex;
+  flex-direction: row;
+  .claim, .facts {
+  flex: 1 1 auto;
+  width: 48%;
+  }
+  .claim {
+    background: #f1b306;
+    em {color: red;}
+  }
+  .facts {background: #acfc83;}
+  table {
+    margin: auto;
+    td, th {border: 1px solid #666; padding: .25em .5em;}
+  }
+}
+.sources {background: #ccf;}
+.issue .claim, .issue .facts, .sources {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin: 1em;
+  h3, h4 {font-weight: bold;}
+  h4 {margin-top: 1.5em;}
+  h2 {
+    font-weight: bold;
+    padding-bottom: 1em;
+    margin: 0 -.5em .5em;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    a, a:hover, a:visited {color: black;}
+  }
+  h3, h4 {font-weight: bold;}
+  h4 {margin-top: 1.5em;}
+}
+div.tc-tagged-Claim .tc-tiddler-body {
+  background: #f1b306;
+  em {color: red;}
+}
+div.tc-tagged-Facts .tc-tiddler-body {background: #acfc83;}
+div.tc-tagged-Sources .tc-tiddler-body {background: #ccf;}
+
+div.tc-tagged-Claim .tc-tiddler-body, div.tc-tagged-Facts .tc-tiddler-body, div.tc-tagged-Sources .tc-tiddler-body {
+  padding: 1em;
+  h3, h4 {font-weight: bold;}
+}
+
+@media (max-width: 500px) {
+  .issue {
+    display: block;
+    flex-direction: unset;
+    .claim, .facts {
+      flex: unset;
+      width: 91%; /* todo, fix margins and paddings and then set this appropriately */
+    }
+  }
+}

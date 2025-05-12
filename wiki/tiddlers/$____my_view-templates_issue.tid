@@ -1,0 +1,9 @@
+created: 20250510233832113
+modified: 20250510233953204
+tags: $:/tags/ViewTemplate
+title: $:/_/my/view-templates/issue
+type: text/vnd.tiddlywiki
+
+<% if [<currentTiddler>tag[Issue]] %>
+<$transclude tiddler="$:/_/my/templates/issue" />
+<% endif %>

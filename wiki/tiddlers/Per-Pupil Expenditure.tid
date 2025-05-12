@@ -1,71 +1,7 @@
 created: 20250510121513610
-modified: 20250510195329797
+modified: 20250510234003801
 tags: Issue
 title: Per-Pupil Expenditure
 type: text/vnd.tiddlywiki
 
-<div class="issue">
-<div class="claim">
 
-!! Claim
-!!! Andover already has the highest Per Pupil expenditure
-
-!!!! PER PUPIL EXPENDITURE
-!!!! JANUARY 2025
-
-|''ANDOVER''     |''$23,439'' |
-|HEBRON       |$22,463  |
-|BOLTON       |$22,400  |
-|COLUMBIA     |$22,054  |
-|MARLBOROUGH |$21,765 |
-</div>
-
-<div class="facts">
-
-!!Facts
-
-!!! It's actually #58
-
-Andover is not #1 in Connecticut's schools system per-pupil costs.  It's #58.
-
-The correct comparison is not to surrounding systems, but to systems of approximately the same student population as Andover.  Costs are inversely correlated to system size, chiefly because smaller systems have mandatory building and administration costs split over fewer students.  So let's look at the five towns closest in size to Andover's student populations:
-
-
-|Salisbury      |$30,154    |
-|North Canaan   |$28,891    |
-|Chester        |$27,734    |
-|Sherman        |$26,415    |
-|Voluntown      |$24,130    |
-|''Andover''        |$''23,439''   |
-
-</div>
-</div>
-
-<style>
-.issue {
-  display: flex;
-  flex-direction: row;
-}
-.claim, .facts {
-  flex: 1 1 auto;
-  width: 48%;
-  border: 1px solid #ccc;
-  padding: 1em;
-  margin: 1em;
-  h2 {
-    font-weight: bold;
-    padding-bottom: 1em;
-    margin: 0 -.5em .5em;
-    text-align: center;
-    border-bottom: 1px solid #999;
-  }
-  h3, h4 {font-weight: bold;}
-  h4 {margin-top: 1.5em;}
-}
-.claim {
-  background:#F1B306;
-}
-.facts {
-  background: #ACFC83;
-}
-</style>

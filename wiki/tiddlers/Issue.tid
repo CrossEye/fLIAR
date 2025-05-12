@@ -1,0 +1,16 @@
+caption: Issues
+created: 20250510231130427
+creator: Scott Sauyet
+list: [[Per-Pupil Expenditure]] [[Source of Money]] [[Rubber Stamping]] [[Packing Meetings]] [[Finance Chair Conflicts]] [[Senior/Community Center]] [[Solar Project]] [[Cash Hoard]]
+modified: 20250511155928111
+modifier: Scott Sauyet
+tags: TableOfContents
+title: Issue
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag<currentTiddler>]" >
+<h1><$link to={{{ [<currentTiddler>] }}} /></h1> 
+<$transclude $tiddler="$:/_/my/templates/issue" $mode="block" />
+<br/>
+<hr/>
+</$list>

@@ -1,0 +1,11 @@
+created: 20250510231646912
+creator: Scott Sauyet
+modified: 20250511033747966
+modifier: Scott Sauyet
+tags: [[Per-Pupil Expenditure]] Sources
+title: Per-Pupil Expenditure Sources
+type: text/vnd.tiddlywiki
+
+The raw data is at [[CT Department of Education|https://portal.ct.gov/-/media/sde/grants-management/report1/basiccon_pdf.pdf]].
+
+Programmers can also look at the [[code used to parse|https://link.sauyet.com/130]] the data cut and pasted from the above, and the brief [[code used to analyze|https://link.sauyet.com/131]] those results (with various sections commented out.)

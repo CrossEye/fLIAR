@@ -1,0 +1,27 @@
+created: 20250510231357262
+modified: 20250511002842406
+tags: 
+title: $:/_/my/templates/issue
+type: text/vnd.tiddlywiki
+
+<div class="issue">
+<div class="claim">
+
+!! <$link to={{{ [<currentTiddler>addsuffix[ Claim]] }}}>Claim</$link>
+<$transclude $tiddler={{{ [<currentTiddler>addsuffix[ Claim]] }}} $mode="block"/>
+</div>
+
+<div class="facts">
+
+!! <$link to={{{ [<currentTiddler>addsuffix[ Facts]] }}}>Facts</$link>
+<$transclude $tiddler={{{ [<currentTiddler>addsuffix[ Facts]] }}} $mode="block"/>
+</div>
+</div>
+
+<%if  [<currentTiddler>addsuffix[ Sources]is[tiddler]] %>
+<div class="sources">
+
+!! <$link to={{{ [<currentTiddler>addsuffix[ Sources]] }}}>Sources</$link>
+<$transclude $tiddler={{{ [<currentTiddler>addsuffix[ Sources]] }}} $mode="block"/>
+</div>
+<% endif %>
