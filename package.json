@@ -1,0 +1,28 @@
+{
+  "name": "FlyerLies",
+  "version": "0.4.0",
+  "description": "Response to Flyer in Rivereast",
+  "main": "index.js",
+  "scripts": {
+    "pkg": "cross-var echo Package $npm_package_version",
+    "build": "cross-var node scripts/updateVersion latest && tiddlywiki wiki --output docs/latest --build index",
+    "release": "cross-var node scripts/updateVersion $npm_package_version && tiddlywiki wiki --output docs --build index && cross-var shx mkdir -p docs/$npm_package_version && cross-var shx cp docs/index.html docs/$npm_package_version/index.html",
+    "start": "tiddlywiki wiki --listen port=7427"
+  },
+  "keywords": [
+    "Andover", "Connecticut", "Rivereast", "Flyer"
+  ],  
+  "author": "Scott Sauyet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrossEye/fLIAR/issues"
+  },
+  "homepage": "https://github.com/CrossEye/fLIAR#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.3.6"
+  },
+  "devDependencies": {
+    "cross-var": "^1.1.0",
+    "shx": "^0.3.4"
+  }
+}

@@ -1,6 +1,6 @@
 created: 20250510203425235
 creator: Scott Sauyet
-modified: 20250511151904452
+modified: 20250512143058802
 modifier: Scott Sauyet
 tags: $:/tags/Stylesheet
 title: $:/_/my/styles/css/main
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
   }
   .claim {
     background: #f1b306;
-    em {color: red;}
+    em {color: red; font-style: normal;}
   }
   .facts {background: #acfc83;}
   table {
